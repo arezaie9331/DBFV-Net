@@ -16,7 +16,7 @@ The project is provided as an executable **Jupyter Notebook** along with pretrai
 
   
 
-Forgery of identity documents has become increasingly accessible due to recent advances in image generation and editing tools. This creates significant risks for digital identity verification and Know Your Customer (KYC) applications, where robust automatic detection of manipulated ID documents is essential. In this work, we address the problem of forged identity document detection using a dual-branch deep learning framework trained in two stages. The proposed system is designed to analyze both portrait-related and document-level visual information and to support reliable discrimination between genuine and forged samples. Experiments are conducted on the FantasyIDiap dataset, which contains fantasy identity cards captured under realistic conditions and includes multiple types of tampering. The results demonstrate the effectiveness of the proposed approach, achieving a best reported F1-score of **93.4**.
+Forgery of identity documents has become increasingly accessible due to recent advances in image generation and editing tools. This creates significant risks for digital identity verification and Know Your Customer (KYC) applications, where robust automatic detection of manipulated ID documents is essential. In this work, we address the problem of forged identity document detection using a dual-branch deep learning framework trained in two stages. The proposed system is designed to analyze both portrait-related and document-level visual information and to support reliable discrimination between genuine and forged samples. Experiments are conducted on the FantasyIDiap dataset, which contains fantasy identity cards captured under realistic conditions and includes multiple types of tampering. The results demonstrate the effectiveness of the proposed approach, achieving a best reported F1-score of **93.4%**.
 
   
 
@@ -59,7 +59,7 @@ Forgery of identity documents has become increasingly accessible due to recent a
 
 └── data/
 
-````
+```
 
   
   
@@ -79,9 +79,10 @@ It is recommended to use Python **3.10+** and a clean virtual environment.
 ### Clone the repository
 
   
-
-`git clone https://github.com/arezaie9331/DBFV-Net cd DBFV-Net`
-
+```bash
+git clone https://github.com/arezaie9331/DBFV-Net.git
+cd DBFV-Net
+```
   
 
 ### Create and activate a virtual environment
@@ -92,24 +93,27 @@ It is recommended to use Python **3.10+** and a clean virtual environment.
 
   
 
-`python -m venv .venv source .venv/bin/activate`
-
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
   
 
 #### Windows
 
   
-
-`python -m venv .venv .venv\Scripts\activate`
-
+```bash
+python -m venv .venv 
+.venv\Scripts\activate
+```
   
 
 ### Install dependencies
 
   
-
-`pip install -r requirements.txt`
-
+```bash
+pip install -r requirements.txt
+```
   
 
 ---
@@ -128,7 +132,7 @@ Official dataset page:
 
   
 
-[https://www.idiap.ch/paper/fantasyid/](https://www.idiap.ch/paper/fantasyid/)
+[Official Dataset Page](https://www.idiap.ch/paper/fantasyid/)
 
   
 
@@ -160,7 +164,7 @@ Pretrained weights are available at:
 
   
 
-[Weights](https://drive.google.com/file/d/11plm3PBzaekYPNmE54RN6YcmQbbR9KqO/view?usp=sharing)
+[Google Drive Weights](https://drive.google.com/file/d/11plm3PBzaekYPNmE54RN6YcmQbbR9KqO/view?usp=sharing)
 
   
 
@@ -235,9 +239,15 @@ Before running all cells, make sure that:
 If you use this repository, please cite the corresponding paper.
 
   
-
 ## Contact
 
-  
-
 For questions, suggestions, or issues, please open an issue on GitHub.
+
+## Citation
+
+If you use this repository, please cite the corresponding paper.
+
+## License
+
+This repository is provided for research purposes only.
+
